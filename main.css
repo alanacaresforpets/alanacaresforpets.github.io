@@ -138,6 +138,7 @@ h6{ font-size: 18pt; }
   position: absolute;
   width: 100vw;
   bottom: 0px;
+  transform: translate(0px, 5px);
 }
 
 .scenetext{
@@ -148,20 +149,6 @@ h6{ font-size: 18pt; }
   left: 0px;
   font-weight: 700;
   font-size: 72pt;
-}
-
-.animal-label{
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  bottom: 50px;
-  left: 0px;
-  transform: translate(0px, 80px);
-  text-decoration: none;
-  font-size: 32pt;
-  font-weight: 700;
-  border-radius: 8px;
-  color: #000000;
 }
 
 .animal{
