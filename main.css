@@ -248,7 +248,7 @@ h6{ font-size: 18pt; }
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .img-col{
     display: none;
   }
@@ -264,6 +264,30 @@ h6{ font-size: 18pt; }
     height: 60vh;
   }
 }
+
+@media only screen and (max-height: 580px) {
+  .petimage{
+    width: 25vw;
+    left: 50%;
+    margin-left: -12.5vw;
+    top: 50%;
+    margin-top: -12.5vw;
+  }
+  .shape{
+    width: 35vw;
+    left: 50%;
+    margin-left: -17.5vw;
+    top: 50%;
+    margin-top: -17.5vw;
+  }
+  .price-title{
+    font-size: 48pt;
+  }
+  .desc-col{
+    font-size: 24pt;
+  }
+}
+
 
 .clearfix::after {
   content: "";
