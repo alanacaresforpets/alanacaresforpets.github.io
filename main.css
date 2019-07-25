@@ -147,6 +147,7 @@ h6{ font-size: 18pt; }
   top: 0px;
   left: 0px;
   font-weight: 700;
+  font-size: 72pt;
 }
 
 .animal-label{
@@ -216,6 +217,10 @@ h6{ font-size: 18pt; }
   height: 320px;
 }
 
+.pagename{
+  float: left;
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
 	html {
 		scroll-behavior: auto;
@@ -228,6 +233,9 @@ h6{ font-size: 18pt; }
   }
   .desc-col{
     width: 100%;
+  }
+  .scenetext{
+    font-size: 56pt;
   }
 }
 
