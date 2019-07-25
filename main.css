@@ -181,35 +181,49 @@ h6{ font-size: 18pt; }
 .spacer{
   height: 10vh;
   width: 100%;
-  float: left;
+  float: left
 }
 
 .pricing-box{
   width: 100vw;
   height: 100vh;
   background-color: #ffd600;
-  text-align: center;
   font-size: 56pt;
+  position: relative;
 }
 
-.image-col{
+.price-title{
   display: flex;
-  width: 60%;
+  height: 20vh;
+  width: 100%;
   float: left;
+  font-size: 72pt;
+  align-items: flex-end;
   justify-content: center;
-  align-items: center;
+}
+
+.img-col{
+  width: 50%;
+  height: 80vh;
+  float: left;
+  position: relative;
 }
 
 .desc-col{
-  width: 30%;
+  width: 50%;
+  height: 80vh;
   float: left;
-  font-size: 24pt;
-  text-align: left;
+  position: relative;
+  background-color: blue;
 }
 
 .petimage{
-  width: auto;
-  height: 320px;
+  position: absolute;
+  width: 40vw;
+  left: 50%;
+  margin-left: -20vw;
+  top: 50%;
+  margin-top: -20vw;
 }
 
 .pagename{
