@@ -254,6 +254,7 @@ h6{ font-size: 18pt; }
   }
   .desc-col{
     width: 100%;
+    display: block;
   }
   .scenetext{
     top: 15vh;
