@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+  background-color: #ffffff;
+  color: #ffffff;
+  font-family: 'Rancho', sans-serif;
+  font-weight: 400;
+  margin: 0px;
+}
+
+h1{ font-size: 72pt; }
+h2{ font-size: 56pt; }
+h3{ font-size: 48pt; }
+h4{ font-size: 32pt; }
+h5{ font-size: 24pt; }
+h6{ font-size: 18pt; }
+
+.c10 { width: 10%; float:left; }
+.c20 { width: 20%; float:left; }
+.c30 { width: 30%; float:left; }
+.c33 { width: 33.33%; float:left; }
+.c50 { width: 50%; float:left; }
+.c60 { width: 60%; float:left; }
+.c66 { width: 66.66%; float:left; }
+.c80 { width: 80%; float:left; }
+.c100 { width: 100%; float:left; }
+
+.right{
+  float:right;
+}
+
+.flexcenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexright{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #ffd600;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  z-index: 10000;
+}
+
+.item{
+  height: 32px;
+  line-height: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 4px;
+  background-color: #13436e;
+}
+.nav.item:hover{
+  background-color: #13436e;
+}
+
+.hero{
+  background-color: #ffffff;
+  color: #000000;
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Text styles */
+  text-align: center;
+}
+
+.heroimage{
+  width: 80vw;
+  height: auto;
+}
+
+.herobtn{
+  /* Positioning and sizing */
+  display: block;
+  width: 160px;
+
+  /* Padding and margins */
+  padding: 0px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Text styles */
+  color: black;
+  text-decoration: none;
+  font-size: 24pt;
+
+  /* Border styles */
+  border: 3px solid black;
+  border-radius: 8px;
+
+  font-weight: 700;
+}
+
+.scene{
+  color: #000000;
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Text styles */
+  text-align: center;
+  background-color: #ffffff;
+  padding: 0px;
+  position: relative;
+}
+
+.grass{
+  position: absolute;
+  width: 100vw;
+  bottom: 0px;
+}
+
+.scenetext{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  font-weight: 700;
+}
+
+.animal-label{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 50px;
+  left: 0px;
+  transform: translate(0px, 80px);
+  text-decoration: none;
+  font-size: 32pt;
+  font-weight: 700;
+  border-radius: 8px;
+  color: #000000;
+}
+
+.animal{
+  position: absolute;
+  width: 25%;
+}
+
+.animal-img{
+  width: 100%;
+}
+
+.cat{
+  bottom: 5px;
+  left: 5%;
+}
+
+.dog{
+  bottom: 5px;
+  left: 35%;
+}
+
+.spacer{
+  height: 10vh;
+  width: 100%;
+  float: left;
+}
+
+.pricing-box{
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffd600;
+  text-align: center;
+  font-size: 56pt;
+}
+
+.image-col{
+  display: flex;
+  width: 60%;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc-col{
+  width: 30%;
+  float: left;
+  font-size: 24pt;
+  text-align: left;
+}
+
+.petimage{
+  width: auto;
+  height: 320px;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+  .image-col{
+    display: none;
+  }
+  .desc-col{
+    width: 100%;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
