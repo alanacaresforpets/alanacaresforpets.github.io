@@ -160,6 +160,11 @@ h6{ font-size: 18pt; }
   width: 100%;
 }
 
+.animal-img:hover{
+  width: 105%;
+  transform: translate(-2.5%, 2.5%);
+}
+
 .cat{
   bottom: 12px;
   left: 5%;
