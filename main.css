@@ -188,13 +188,13 @@ h6{ font-size: 18pt; }
   width: 100vw;
   height: 100vh;
   background-color: #ffd600;
-  font-size: 56pt;
+  font-size: 32pt;
   position: relative;
 }
 
 .price-title{
   display: flex;
-  height: 20vh;
+  height: 25vh;
   width: 100%;
   float: left;
   font-size: 72pt;
@@ -204,17 +204,20 @@ h6{ font-size: 18pt; }
 
 .img-col{
   width: 50%;
-  height: 80vh;
+  height: 75vh;
   float: left;
   position: relative;
 }
 
 .desc-col{
   width: 50%;
-  height: 80vh;
+  height: 75vh;
   float: left;
   position: relative;
-  background-color: blue;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .petimage{
@@ -224,6 +227,15 @@ h6{ font-size: 18pt; }
   margin-left: -20vw;
   top: 50%;
   margin-top: -20vw;
+}
+
+.shape{
+  position: absolute;
+  width: 50vw;
+  left: 50%;
+  margin-left: -25vw;
+  top: 50%;
+  margin-top: -25vw;
 }
 
 .pagename{
@@ -237,7 +249,7 @@ h6{ font-size: 18pt; }
 }
 
 @media only screen and (max-width: 600px) {
-  .image-col{
+  .img-col{
     display: none;
   }
   .desc-col{
