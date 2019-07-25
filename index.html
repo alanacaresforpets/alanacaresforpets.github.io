@@ -4,8 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css"> <!-- make absolue -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $(window).load(function() {
+      $("body").removeClass("preload");
+    });
+    </script>
   </head>
-  <body>
+  <body class="preload">
     <div class="nav">
         <div class="pagename">Alana's Pet Care</div>
           <a class="item right">Request A Quote</a>
