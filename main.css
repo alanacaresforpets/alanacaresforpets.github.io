@@ -71,10 +71,6 @@ h6{ font-size: 18pt; }
   margin-right: 12px;
   border-radius: 4px;
   background-color: #13436e;
-
-}
-.item:hover{
-  background-color: #13436e;
 }
 
 .hero{
@@ -246,4 +242,8 @@ h6{ font-size: 18pt; }
   content: "";
   clear: both;
   display: table;
+}
+
+.preload{
+  transition: none !important;
 }
