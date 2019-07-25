@@ -190,6 +190,7 @@ h6{ font-size: 18pt; }
   background-color: #ffd600;
   font-size: 32pt;
   position: relative;
+  overflow: hidden;
 }
 
 .price-title{
@@ -240,6 +241,14 @@ h6{ font-size: 18pt; }
 
 .pagename{
   float: left;
+}
+
+footer{
+  background-color: #eeeeee;
+  color: #000000;
+  font-size: 18pt;
+  line-height: 20pt;
+  padding: 12px;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
