@@ -222,8 +222,11 @@ h6{ font-size: 18pt; }
     width: 100%;
   }
   .scenetext{
-    top: 25vh;
+    top: 10vh;
     font-size: 56pt;
+  }
+  .scene{
+    height: 60vh;
   }
 }
 
