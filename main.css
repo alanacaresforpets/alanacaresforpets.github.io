@@ -156,7 +156,7 @@ h6{ font-size: 18pt; margin: 0px; }
 .scenefill{
   width: 100vw;
   height: 0vh;
-  background-color: #ffd600;
+  background-color: #f5d534;
   position: relative;
   overflow: hidden;
 }
@@ -378,10 +378,10 @@ footer{
 	}
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
   .img-col{
     width: 100%;
-    min-height: 20vh;
+    min-height: 25vh;
   }
   .desc-col{
     width: 100%;
@@ -432,29 +432,6 @@ footer{
   }
   .scenetext{
     font-size: 32pt;
-  }
-}
-
-@media only screen and (max-height: 580px) {
-  .petimage{
-    width: 25vw;
-    left: 50%;
-    margin-left: -12.5vw;
-    top: 50%;
-    margin-top: -12.5vw;
-  }
-  .shape{
-    width: 35vw;
-    left: 50%;
-    margin-left: -17.5vw;
-    top: 50%;
-    margin-top: -17.5vw;
-  }
-  .itle{
-    font-size: 48pt;
-  }
-  .desc-col{
-    font-size: 24pt;
   }
 }
 
