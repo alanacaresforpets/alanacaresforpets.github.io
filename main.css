@@ -74,8 +74,12 @@ h6{ font-size: 18pt; margin: 0px; }
 }
 
 .hero{
-  background-color: #ffffff;
-  color: #000000;
+  position: relative;
+
+  background-size: cover;
+  background-color: #ffd600ee;
+  background: linear-gradient(0deg, #5ebfffff 5%, #ffd600ff 95%);
+
   /* Sizing */
   width: 100vw;
   height: 100vh;
@@ -90,6 +94,7 @@ h6{ font-size: 18pt; margin: 0px; }
 .heroimage{
   width: 80vw;
   height: auto;
+  z-index: 1;
 }
 
 .btn{
@@ -135,7 +140,7 @@ h6{ font-size: 18pt; margin: 0px; }
 }
 
 .scene{
-  color: #000000;
+  color: #fff;
   /* Sizing */
   width: 100vw;
   height: 100vh;
@@ -145,9 +150,10 @@ h6{ font-size: 18pt; margin: 0px; }
   align-items: center;
   /* Text styles */
   text-align: center;
-  background-color: #ffffff;
   padding: 0px;
   position: relative;
+  /* background-color: #5ebfff */
+  background: linear-gradient(0deg, #0eafffff 5%, #5ebfffff 95%);
 }
 
 .scenefill{
@@ -404,6 +410,9 @@ footer{
     width: 100%;
     min-height: 0px;
     padding: 0px;
+  }
+  .info-col.right{
+    padding-bottom: 24px;
   }
   .info-title{
     font-size: 48pt;
