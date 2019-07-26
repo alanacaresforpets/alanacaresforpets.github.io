@@ -270,7 +270,7 @@ h6{ font-size: 18pt; margin: 0px; }
 
 .info-title{
   display: flex;
-  height: 18vh;
+  height: 20vh;
   width: 100%;
   float: left;
   font-size: 72pt;
@@ -284,13 +284,9 @@ h6{ font-size: 18pt; margin: 0px; }
 
 .info-col{
   width: 50%;
-  min-height: 82vh;
+  min-height: 80vh;
   float: left;
   position: relative;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .info-col.left{
