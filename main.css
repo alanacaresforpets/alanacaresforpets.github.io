@@ -54,7 +54,7 @@ h6{ font-size: 18pt; margin: 0px; }
   font-size: 24px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #fff03d;
+  background-color: #ffde35;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 12px;
@@ -76,7 +76,7 @@ h6{ font-size: 18pt; margin: 0px; }
 .hero{
   background-size: cover;
   background-color: #ffd600ee;
-  background: linear-gradient(0deg, #ff7300 0%, #fff03d 95%);
+  background: linear-gradient(0deg, #ff9c14 0%, #ffde35 95%);
 
   /* Sizing */
   width: 100vw;
@@ -150,7 +150,7 @@ h6{ font-size: 18pt; margin: 0px; }
   text-align: center;
   padding: 0px;
   position: relative;
-  /* background-color: #5ebfff */
+  background-color: #ff9c14
 }
 
 .scenefill{
@@ -206,7 +206,7 @@ h6{ font-size: 18pt; margin: 0px; }
 .pricing-box{
   width: 100vw;
   height: 100vh;
-  background-color: #ffd600;
+  background-color: #ffde35;
   font-size: 32pt;
   position: relative;
   overflow: hidden;
@@ -265,7 +265,7 @@ h6{ font-size: 18pt; margin: 0px; }
 .info-box{
   width: 100vw;
   min-height: 100vh;
-  background-color: #ffd600;
+  background-color: #ffde35;
   font-size: 24pt;
   position: relative;
   overflow: hidden;
