@@ -268,19 +268,37 @@ h6{ font-size: 18pt; margin: 0px; }
   overflow: hidden;
 }
 
+.info-title{
+  display: flex;
+  height: 18vh;
+  width: 100%;
+  float: left;
+  font-size: 72pt;
+  align-items: flex-end;
+  justify-content: center;
+}
+
 .info-box h2{
   font-size: 36pt;
 }
 
 .info-col{
   width: 50%;
-  min-height: 75vh;
+  min-height: 82vh;
   float: left;
   position: relative;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.info-col.left{
+  width: 40%;
+}
+
+.info-col.right{
+  width: 60%;
 }
 
 .quote-button{
@@ -363,7 +381,7 @@ footer{
     width: 100%;
     min-height: 50vh;
   }
-  .price-title{
+  .itle{
     height: 16vh;
   }
   .scenetext{
@@ -408,7 +426,7 @@ footer{
     top: 50%;
     margin-top: -17.5vw;
   }
-  .price-title{
+  .itle{
     font-size: 48pt;
   }
   .desc-col{
