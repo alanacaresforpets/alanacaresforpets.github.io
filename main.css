@@ -141,7 +141,7 @@ h6{ font-size: 18pt; margin: 0px; }
   color: #fff;
   /* Sizing */
   width: 100vw;
-  height: 100vh;
+  height: 96vh;
   /* Flexbox stuff */
   display: flex;
   justify-content: center;
