@@ -54,7 +54,7 @@ h6{ font-size: 18pt; margin: 0px; }
   font-size: 24px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #ffde35;
+  background-color: #f5d534ee;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 12px;
@@ -76,7 +76,7 @@ h6{ font-size: 18pt; margin: 0px; }
 .hero{
   background-size: cover;
   background-color: #ffd600ee;
-  background: linear-gradient(0deg, #ff9c14 0%, #ffde35 95%);
+  background: linear-gradient(0deg, #ff9c14 0%, #f5d534 95%);
 
   /* Sizing */
   width: 100vw;
@@ -206,7 +206,7 @@ h6{ font-size: 18pt; margin: 0px; }
 .pricing-box{
   width: 100vw;
   height: 100vh;
-  background-color: #ffde35;
+  background-color: #f5d534;
   font-size: 32pt;
   position: relative;
   overflow: hidden;
@@ -265,7 +265,7 @@ h6{ font-size: 18pt; margin: 0px; }
 .info-box{
   width: 100vw;
   min-height: 100vh;
-  background-color: #ffde35;
+  background-color: #f5d534;
   font-size: 24pt;
   position: relative;
   overflow: hidden;
