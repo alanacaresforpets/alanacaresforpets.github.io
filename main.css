@@ -76,7 +76,8 @@ h6{ font-size: 18pt; margin: 0px; }
 .hero{
   background-size: cover;
   background-color: #ffd600ee;
-  background: linear-gradient(0deg, #ff9c14 0%, #f5d534 95%);
+  background: linear-gradient(0deg, #ff9c14 0%, #f5d534 95%) center center;
+  background-size: cover;
 
   /* Sizing */
   width: 100vw;
@@ -92,7 +93,6 @@ h6{ font-size: 18pt; margin: 0px; }
 .heroimage{
   width: 80vw;
   height: auto;
-  z-index: 1;
 }
 
 .btn{
@@ -150,7 +150,7 @@ h6{ font-size: 18pt; margin: 0px; }
   text-align: center;
   padding: 0px;
   position: relative;
-  background-color: #ff9c14
+  background-color: #34a8eb
 }
 
 .scenefill{
@@ -164,8 +164,11 @@ h6{ font-size: 18pt; margin: 0px; }
 .grass{
   position: absolute;
   width: 100vw;
+  left: 0px;
   bottom: 0px;
-  transform: translate(0px, 5px);
+  transform: translate(-2px, 5px);
+  margin:  0px;
+  padding: 0px;
 }
 
 .scenetext{
