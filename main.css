@@ -14,12 +14,12 @@ body{
   margin: 0px;
 }
 
-h1{ font-size: 72pt; }
-h2{ font-size: 56pt; }
-h3{ font-size: 48pt; }
-h4{ font-size: 32pt; }
-h5{ font-size: 24pt; }
-h6{ font-size: 18pt; }
+h1{ font-size: 72pt; margin: 0px; }
+h2{ font-size: 56pt; margin: 0px; }
+h3{ font-size: 48pt; margin: 0px; }
+h4{ font-size: 32pt; margin: 0px; }
+h5{ font-size: 24pt; margin: 0px; }
+h6{ font-size: 18pt; margin: 0px; }
 
 .c10 { width: 10%; float:left; }
 .c20 { width: 20%; float:left; }
@@ -221,14 +221,14 @@ h6{ font-size: 18pt; }
 
 .img-col{
   width: 50%;
-  height: 75vh;
+  min-height: 75vh;
   float: left;
   position: relative;
 }
 
 .desc-col{
   width: 50%;
-  height: 75vh;
+  min-height: 75vh;
   float: left;
   position: relative;
 
@@ -261,11 +261,35 @@ h6{ font-size: 18pt; }
 
 .info-box{
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #ffd600;
-  font-size: 32pt;
+  font-size: 24pt;
   position: relative;
   overflow: hidden;
+}
+
+.info-box h2{
+  font-size: 36pt;
+}
+
+.info-col{
+  width: 50%;
+  min-height: 75vh;
+  float: left;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-button{
+  display: block;
+  min-width: 35vh;
+  width: 75%;
+  max-width: 50vh;
+  border-radius: 12px;
+  background-color: #13436e;
 }
 
 hr{
@@ -274,6 +298,46 @@ hr{
   border-style: solid;
   border-color: white;
   border-radius: 2px;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  padding: 2px 8px 2px 8px;
+}
+th.t-left{
+  background-color: #404040;
+  text-align: right;
+  padding-left: 24px;
+}
+td.t-left{
+  background-color: #808080;
+  text-align: right;
+  padding-left: 24px;
+}
+
+th.t-right{
+  background-color: #404040;
+  text-align: left;
+  padding-right: 24px;
+}
+td.t-right{
+  background-color: #a0a0a0;
+  text-align: left;
+  padding-right: 24px;
+}
+
+img.map{
+  min-width: 35vh;
+  min-height: 35vh;
+  width: 75%;
+  height: auto;
+  max-height: 50vh;
+  max-width: 50vh;
+  border-radius: 12px;
+}
+
+a{
+  color: white;
 }
 
 footer{
@@ -293,11 +357,14 @@ footer{
 @media only screen and (max-width: 650px) {
   .img-col{
     width: 100%;
-    height: 25vh;
+    min-height: 20vh;
   }
   .desc-col{
     width: 100%;
-    height: 45vh;
+    min-height: 50vh;
+  }
+  .price-title{
+    height: 16vh;
   }
   .scenetext{
     top: 15vh;
