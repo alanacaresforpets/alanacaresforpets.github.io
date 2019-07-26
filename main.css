@@ -74,11 +74,9 @@ h6{ font-size: 18pt; margin: 0px; }
 }
 
 .hero{
-  position: relative;
-
   background-size: cover;
   background-color: #ffd600ee;
-  background: linear-gradient(0deg, #5ebfffff 5%, #ffd600ff 95%);
+  background: linear-gradient(0deg, #ff9900 5%, #ffd600 95%);
 
   /* Sizing */
   width: 100vw;
@@ -153,7 +151,7 @@ h6{ font-size: 18pt; margin: 0px; }
   padding: 0px;
   position: relative;
   /* background-color: #5ebfff */
-  background: linear-gradient(0deg, #0eafffff 5%, #5ebfffff 95%);
+  background: linear-gradient(0deg, #ff8800 5%, #ff9900 95%);
 }
 
 .scenefill{
