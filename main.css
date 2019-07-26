@@ -289,12 +289,19 @@ h6{ font-size: 18pt; margin: 0px; }
   position: relative;
 }
 
+.info-inner{
+  width: 100%;
+  margin: 25px;
+  text-align: center;
+}
+
 .info-col.left{
   width: 40%;
 }
 
 .info-col.right{
-  width: 60%;
+  width: 55%;
+  margin-right: 5%;
 }
 
 .quote-button{
@@ -392,6 +399,21 @@ footer{
   }
   .scenetext{
     font-size: 56pt;
+  }
+  .info-col.left, .info-col.right{
+    width: 100%;
+    min-height: 0px;
+    padding: 0px;
+  }
+  .info-title{
+    font-size: 48pt;
+  }
+  img.map{
+    min-width: 0px;
+  }
+  .info-inner{
+    margin: 0px;
+    padding: 5px;
   }
 }
 
