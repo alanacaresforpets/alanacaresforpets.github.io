@@ -54,7 +54,7 @@ h6{ font-size: 18pt; margin: 0px; }
   font-size: 24px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #ffef56;
+  background-color: #fff03d;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 12px;
@@ -76,7 +76,7 @@ h6{ font-size: 18pt; margin: 0px; }
 .hero{
   background-size: cover;
   background-color: #ffd600ee;
-  background: linear-gradient(0deg, #ff8d00 0%, #ffef56 95%);
+  background: linear-gradient(0deg, #ff7300 0%, #fff03d 95%);
 
   /* Sizing */
   width: 100vw;
